@@ -1,0 +1,1 @@
+(function(){const sb=window.qr4uSupabase;window.QR4U={sb,show:(id,msg,type='error')=>{const e=document.getElementById(id);if(e){e.textContent=msg;e.className='notice '+type;e.style.display='block'}},escape:s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))};})();
